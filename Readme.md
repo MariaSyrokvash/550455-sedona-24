@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Мария Сырокваш](https://up.htmlacademy.ru/htmlcss/24/user/550455).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
 
 ---
 
