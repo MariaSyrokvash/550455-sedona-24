@@ -21,7 +21,32 @@
       </header>
       <main>
         <section class="filter">
-          <!-- Здесь будет форма -->
+          <form action="#" method="post">
+            <fieldset>
+              <legend class="filter-list">Инфраструктура</legend>
+              <p class="filter-text">
+                <input type="checkbox" name="option1" value="a1" checked>Бассейн
+                <input type="checkbox" name="option2" value="a2">Парковка
+                <input type="checkbox" name="option3" value="a3">Wi-fi
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend class="filter-list">Тип жилья</legend>
+              <p class="filter-text">
+                <input type="checkbox" name="option4" value="a4" checked>Гостиница
+                <input type="checkbox" name="option5" value="a5" checked>Мотель
+                <input type="checkbox" name="option6" value="a6" checked>Апартаменты
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend class="filter-list">Стоимость в сутки (Р)</legend>
+              <p class="filter-text">
+                <input type="text" name="price" id="price-min" value="от 0">
+                <input type="text" name="price" id="price-max" value="до 3000">
+                <input type="submit" value="Показать">
+              </p>
+            </fieldset>
+          </form>
         </section>
         <div class="hotels-sort">
           <span class="number">Найдено: 3</span>
