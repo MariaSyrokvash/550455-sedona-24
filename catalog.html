@@ -24,18 +24,26 @@
           <form action="#" method="post">
             <fieldset>
               <legend class="filter-list">Инфраструктура</legend>
-              <p class="filter-text">
-                <input type="checkbox" name="option1" value="a1" checked>Бассейн
-                <input type="checkbox" name="option2" value="a2">Парковка
-                <input type="checkbox" name="option3" value="a3">Wi-fi
+              <p class="filter-checkbox">
+                <input type="checkbox" name="pool" value="yes" id="pool" checked><label for="pool">Бассейн</label>
+              </p>
+              <p class="filter-checkbox">
+                <input type="checkbox" name="parking" value="yes" id="parking"><label for="parking">Парковка</label>
+              </p>
+              <p class="filter-checkbox">
+                <input type="checkbox" name="wi-fi" value="yes" id="wi-fi"><label for="wi-fi">Wi-fi</label>
               </p>
             </fieldset>
             <fieldset>
               <legend class="filter-list">Тип жилья</legend>
-              <p class="filter-text">
-                <input type="checkbox" name="option4" value="a4" checked>Гостиница
-                <input type="checkbox" name="option5" value="a5" checked>Мотель
-                <input type="checkbox" name="option6" value="a6" checked>Апартаменты
+              <p class="filter-checkbox">
+                <input type="checkbox" name="type" value="hotel" id="hotel" checked ><label for="hotel">Гостиница</label>
+              </p>
+              <p class="filter-checkbox">
+                <input type="checkbox" name="type" value="motel" id="motel" checked><label for="motel">Мотель</label>
+              </p>
+              <p class="filter-checkbox">
+                <input type="checkbox" name="type" value="apartament" id="apartament" checked><label for="apartament">Апартаменты</label>
               </p>
             </fieldset>
             <fieldset>
