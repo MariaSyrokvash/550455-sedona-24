@@ -21,36 +21,46 @@
       </header>
       <main>
         <section class="filter">
-          <form action="#" method="get">
+          <form action="https://echo.htmlacademy.ru" method="post">
             <fieldset>
               <legend class="filter-list">Инфраструктура</legend>
               <p class="filter-checkbox">
-                <input type="checkbox" name="pool" value="yes" id="pool" checked><label for="pool">Бассейн</label>
+                <input class="visually-hidden input-checkbox" type="checkbox" name="pool" value="yes" id="pool" checked>
+                <label class="input-checkbox-label" for="pool">Бассейн</label>
               </p>
               <p class="filter-checkbox">
-                <input type="checkbox" name="parking" value="yes" id="parking"><label for="parking">Парковка</label>
+                <input class="visually-hidden input-checkbox" type="checkbox" name="parking" value="yes" id="parking">
+                <label  class="input-checkbox-label" for="parking">Парковка</label>
               </p>
               <p class="filter-checkbox">
-                <input type="checkbox" name="wi-fi" value="yes" id="wi-fi"><label for="wi-fi">Wi-fi</label>
+                <input class="visually-hidden input-checkbox" type="checkbox" name="wi-fi" value="yes" id="wi-fi">
+                <label class="input-checkbox-label" for="wi-fi">Wi-fi</label>
               </p>
             </fieldset>
             <fieldset>
               <legend class="filter-list">Тип жилья</legend>
               <p class="filter-checkbox">
-                <input type="checkbox" name="type" value="hotel" id="hotel" checked ><label for="hotel">Гостиница</label>
+                <input class="visually-hidden input-checkbox" type="checkbox" name="type" value="hotel" id="hotel" checked >
+                <label class="input-checkbox-label" for="hotel">Гостиница</label>
               </p>
               <p class="filter-checkbox">
-                <input type="checkbox" name="type" value="motel" id="motel" checked><label for="motel">Мотель</label>
+                <input class="visually-hidden input-checkbox" type="checkbox" name="type" value="motel" id="motel" checked>
+                <label class="input-checkbox-label" for="motel">Мотель</label>
               </p>
               <p class="filter-checkbox">
-                <input type="checkbox" name="type" value="apartament" id="apartament" checked><label for="apartament">Апартаменты</label>
+                <input class="visually-hidden input-checkbox" type="checkbox" name="type" value="apartament" id="apartament" checked>
+                <label class="input-checkbox-label" for="apartament">Апартаменты</label>
               </p>
             </fieldset>
             <fieldset>
               <legend class="filter-list">Стоимость в сутки (Р)</legend>
               <p class="filter-text">
-                <input type="text" name="price" id="price-min" value="от 0">
-                <input type="text" name="price" id="price-max" value="до 3000">
+                <label  class="input-price-label" for="price-min">От</label>
+                <input class="input-price" type="text" name="price" id="price-min" value="0">
+                <label class="input-price-label" for="price-max">До</label>
+                <input class="input-price" type="text" name="price" id="price-max" value="3000">
+                <button class="button-diapason"><span class="visually-hidden">Минимальная цена</span></button>
+                <button class="button-diapason"><span class="visually-hidden">Максимальная цена</span></button>
                 <input type="submit" value="Показать">
               </p>
             </fieldset>
