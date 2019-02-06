@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -25,7 +28,7 @@
         </section>
         <section class="advantages">
           <div class="advantages-intro">
-            <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+            <h1>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h1>
             <p class="cause">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
           </div>
           <h2 class="visually-hidden">Преимущества Седоны</h2>
@@ -40,15 +43,15 @@
                 <img src=img/city1.jpg width="800" height="256" alt="Город Седона" class="advantages-img">
               </div>
               <ul class="features-list">
-                <li class="features-item">
+                <li class="features-item features-item-home">
                   <h3>Жильё</h3>
                   <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                 </li>
-                <li class="features-item">
+                <li class="features-item features-item-food">
                   <h3>Еда</h3>
                   <p>Всегдазаказыва те фирменныей бургер, вы не разочаруетесь!</p>
                 </li>
-                <li class="features-item">
+                <li class="features-item features-item-present">
                   <h3>Суверниры</h3>
                   <p>Не только китайского, но и местного производства</p>
                 </li>
@@ -59,7 +62,7 @@
                   <img src=img/city2.jpg width="800" height="256" alt="Город Седона" class="advantages-img">
                 </div>
                 <div class="advantages-text">
-                  <h3>Там есть мост дьявола</h3>
+                  <h3>Там есть<br> мост дьявола</h3>
                   <span class="reason-number">№2</span>
                   <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                 </div>
@@ -86,7 +89,7 @@
             <h2>Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
           </div>
-          <a href="#">Поиск гостиницы в Седоне</a>
+          <a class ="booking-search" href="#">Поиск гостиницы в Седоне</a>
         </section>
         <div class="map">
           <form class="popup" action="https://echo.htmlacademy.ru" method="post">
@@ -121,10 +124,10 @@
       <footer class="main-footer">
         <span class="tag">#visitsedona</span>
         <div class="footer-social">
-          <ul>
-            <li><a class="social-button" href="#"><span class="visually-hidden">Твиттер</span></a></li>
-            <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-            <li><a class="social-button" href="#"><span class="visually-hidden">Ютуб</span></a></li>
+          <ul class="social-button">
+            <li><a class="social-button social-button-twitter" href="www.twiter.com"><span class="visually-hidden">Твиттер</span></a></li>
+            <li><a class="social-button social-button-facebook" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+            <li><a class="social-button social-button-youtube" href="#"><span class="visually-hidden">Ютуб</span></a></li>
           </ul>
         </div>
         <p class="copyright"> Website.by
