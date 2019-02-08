@@ -25,25 +25,32 @@ a {
   text-transform: uppercase;
 }
 
-.site-navigation a {
+.navigation-item {
   color: #000000;
 }
 
-.site-navigation a:hover {
+.navigation-item a:hover {
 color: #81b3d2;
 }
 
-.site-navigation a:focus {
+.navigation-item a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.current-link {
   color: #766357;
 }
 
-.site-navigation a:active {
-  color: #4c4c4c;
+.current-link:hover {
+  color: #81b3d2;
+}
+
+.current-link:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .banner {
-  width: 1200px;
-  height: 800px;
+  height: 725px;
   background-image: url("../img/polygon.svg"), url("../img/bg.png");
   background-position: 50% 100%, 50% 0%;
   background-size: 100% auto, 100% auto;
@@ -153,10 +160,11 @@ color: #81b3d2;
 
 .booking-search {
   font-size: 21px;
-  line-height: 26px;
+  line-height: 16px;
   color: #ffffff;
   background-color: #766357;
-  padding: 35px 140px;
+  padding: 35px;
+  min-width: 86px;
 }
 
 .booking-search:hover {
@@ -190,9 +198,13 @@ color: #81b3d2;
 }
 
 .social-button {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
   list-style: none;
   background-repeat: no-repeat;
-  }
+  position: absolute;
+}
 
 .social-button-twitter {
   background-image: url("../img/twitter.svg");
@@ -210,11 +222,11 @@ color: #81b3d2;
   text-align: center;
 }
 
-.logo_htmlacademy:hover {
+.logo-htmlacademy:hover {
   fill: #81b3d2;
 }
 
-.logo_htmlacademy:active {
+.logo-htmlacademy:active {
   fill: #bdbbbc;
 }
 
@@ -229,6 +241,10 @@ color: #81b3d2;
 
 .filter {
   background-image: url("../img/filter-background.jpg")
+}
+
+.filter fieldset {
+  border: none;
 }
 
 .filter-list {
@@ -271,8 +287,8 @@ color: #81b3d2;
   text-transform: uppercase;
 }
 
-.button-diapason {
-  background-image: url("..//img/filter-button.svg");
+.button-range {
+  background-image: url("../img/filter-button.svg");
 }
 
 .input-price {
@@ -309,30 +325,38 @@ color: #81b3d2;
   color: #000000;
 }
 
-.sorting {
+.sorting p {
   font-size: 12px;
   line-height: 18px;
   color: #000000;
 }
-
-.sorting-item-active {
+.sorting-item {
+  color: #00010133;
+  border-bottom: 1px dotted #81b3d2;
   font-size: 12px;
   line-height: 18px;
+}
+
+.sorting-item:hover {
   color: #81b3d2;
 }
 
-.sorting-item-disabled {
-  font-size: 12px;
-  line-height: 18px;
-  color: #00010133;
+.sorting-item:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.sorting-item-current {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.sorting-item-current:hover {
+  color: #81b3d2;
   border-bottom: 1px dotted #81b3d2;
 }
 
-.sorting-item-disabled:hover {
-  color: #81b3d2;
-}
-
-.sorting-item-disabled:active {
+.sorting-item-current:active{
   color: #000000;
   border-bottom: none;
 }
