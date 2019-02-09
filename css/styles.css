@@ -23,18 +23,18 @@ a {
   list-style: none;
  }
 
-.site-navigation a {
+.navigation-link {
   list-style: none;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
 }
 
-.site-navigation a:hover {
+.navigation-link:hover {
 color: #81b3d2;
 }
 
-.site-navigation a:active {
+.navigation-link:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
