@@ -9,6 +9,67 @@ body {
   background-color: #f2f2f2;
 }
 
+.main-header {
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background-color: #fffff;
+}
+
+.main-navigation {
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+}
+
+.main-header-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* margin-top: -.25px;
+  margin-bottom: -15px; */
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ /* box-sizing: border-box; */
+}
+
+.navigation-link {
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+
+.navigation-link:nth-child(4n - 2) {
+  margin-right: 20%;
+}
+
+.navigation-link:nth-child(4n - 2),
+.navigation-link:nth-child(4n - 3) {
+  text-align: left;
+  padding-left: 6%;
+  background-color: green;
+}
+
+.navigation-link:nth-child(4n - 1),
+.navigation-link:nth-child(4n) {
+  text-align: right;
+  padding-right: 6%;
+  background-color:yellow;
+}
+
 a {
   text-decoration: none;
 }
@@ -17,17 +78,6 @@ a {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
- }
-
- .site-navigation {
-  list-style: none;
- }
-
-.navigation-link {
-  list-style: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #000000;
 }
 
 .navigation-link:hover {
@@ -51,12 +101,17 @@ color: #81b3d2;
 }
 
 .banner {
-  height: 725px;
+  height: 565px;
   background-image: url("../img/polygon.svg"), url("../img/bg.png");
   background-position: 50% 100%, 50% 0%;
   background-size: 100% auto, 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .advantages-intro {
@@ -64,6 +119,9 @@ color: #81b3d2;
   text-align: center;
   color: #333333;
   min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .advantages-intro h1 {
@@ -71,6 +129,7 @@ color: #81b3d2;
   font-weight: bold;
   color: #000000;
   line-height: 26px;
+  margin-bottom: 25px;
 }
 
 .cause p {
@@ -78,6 +137,7 @@ color: #81b3d2;
   text-align: center;
   line-height: 26px;
   color: #333333;
+  margin-bottom: 56px;
 }
 
 .advantages {
@@ -135,6 +195,7 @@ color: #81b3d2;
   background-color: #eeeeee;
   line-height: 21px;
   text-align: center;
+  margin-bottom: 57px;
 }
 
   .booking {
@@ -186,6 +247,9 @@ color: #81b3d2;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .input-popup {
@@ -231,8 +295,11 @@ color: #81b3d2;
 }
 
 .main-footer {
-  opacity: 0.9;
-  background-color: #ffffff;
+  padding: 45px 0;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .tag {
@@ -244,24 +311,20 @@ color: #81b3d2;
   text-transform: uppercase;
 }
 
-.copyright-link {
+.footer-social {
+  width: 160px;
+  border: 1px solid red;
+}
+
+.copyright {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
 }
 
-.social-button {
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
-  list-style: none;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-
 .social-button-twitter {
-  background-image: url("../img/twitter.svg");
+  background-image: url("../img/fb-icon.svg");
 }
 
 .social-button-facebook {
@@ -270,10 +333,6 @@ color: #81b3d2;
 
 .social-button-youtube {
   background-image: url("../img/youtube.svg");
-}
-
-.copyright {
-  text-align: center;
 }
 
 .logo-htmlacademy:hover {
