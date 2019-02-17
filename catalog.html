@@ -58,10 +58,12 @@
             <fieldset class="filter-field filter-field-price">
               <legend class="filter-list">Стоимость в сутки (Р)</legend>
               <p class="filter-text">
-                <label  class="input-price-label" for="price-min">От</label>
-                <input class="input-price" type="text" name="price" id="price-min" value="0">
-                <label class="input-price-label" for="price-max">До</label>
-                <input class="input-price" type="text" name="price" id="price-max" value="3000">
+                <div class="price-controls">
+                  <label class="input-price-label" for="price-min">От</label>
+                  <input class="input-price" type="text" name="price" id="price-min" value="0">
+                  <label class="input-price-label" for="price-max">До</label>
+                  <input class="input-price" type="text" name="price" id="price-max" value="3000">
+              </div>
                 <button class="button-range"><span class="visually-hidden">Минимальная цена</span></button>
                 <button class="button-range"><span class="visually-hidden">Максимальная цена</span></button>
                 <input class="filter-display" type="submit" value="Показать">
