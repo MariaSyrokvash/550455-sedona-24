@@ -59,7 +59,7 @@ body {
 
 .navigation-item:nth-child(n+3) {
   text-align: right;
-  margin-right: -40px;
+  justify-content: flex-end;
 }
 
 .site-navigation a {
