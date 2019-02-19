@@ -35,7 +35,7 @@
           <ol class="advantages-list">
             <li class="advantages-item advantages-item-left">
               <div class="advantages-text">
-                <h3>Настоящий<br> городок</h3>
+                <h3>Настоящий городок</h3>
                 <span class="reason-number">— №1 —</span>
                 <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
@@ -45,15 +45,15 @@
               <ul class="features-list">
                 <li class="features-item features-item-home">
                   <h3>Жильё</h3>
-                  <p>Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
+                  <p class="option option-home">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                 </li>
                 <li class="features-item features-item-food">
                   <h3>Еда</h3>
-                  <p>Всегда заказывайте фирменныей бургер,<br> вы не разочаруетесь!</p>
+                  <p class="option option-food">Всегда заказывайте фирменныей бургер, вы не разочаруетесь!</p>
                 </li>
                 <li class="features-item features-item-present">
-                  <h3>Суверниры</h3>
-                  <p>Не только китайского, но и местного<br> производства</p>
+                  <h3 class="present">Суверниры</h3>
+                  <p class="option option-present">Не только китайского, но и местного производства</p>
                 </li>
               </ul>
             </li>
@@ -68,19 +68,19 @@
                 </div>
               </li>
               <li class="advantages-item advantages-item-grey">
-                <h3>Небольшая<br> площадь</h3>
+                <h3>Небольшая площадь</h3>
                 <span class="reason-number">— №3 —</span>
-                <p>Все достопримечательности<br> находятся очень близко</p>
+                <p class="reason-three">Все достопримечательности находятся очень близко</p>
               </li>
               <li class="advantages-item advantages-item-grey">
-                <h3>Красивая<br> дорога</h3>
+                <h3>Красивая дорога</h3>
                 <span class="reason-number">— №4 —</span>
-                <p>Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
+                <p class="reason-four">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </li>
               <li class="advantages-item advantages-item-grey">
-                <h3>Мало<br> туристов</h3>
+                <h3>Мало туристов</h3>
                 <span class="reason-number">— №5 —</span>
-                <p>Большинство едет в гранд каньон<br> и толпится там</p>
+                <p class="reason-five">Большинство едет в гранд каньон и толпится там</p>
               </li>
           </ol>
         </section>
@@ -90,18 +90,16 @@
             <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
           </div>
           <a class ="booking-search" href="#">Поиск гостиницы в Седоне</a>
-        </section>
-        <div class="map">
           <form class="popup" action="https://echo.htmlacademy.ru" method="post">
             <div class="popup-item">
               <label class="input-popup-label" for="check-in">Дата заезда:</label>
               <input class="input-popup" type="text" name="check-in" id="check-in" value="24 апреля 2017">
-              <button class="calendar"><span class="visually-hidden">Выбрать дату заезда</span></button>
+              <button class="calendar" type="button"><span class="visually-hidden">Выбрать дату заезда</span></button>
             </div>
             <div class="popup-item">
               <label class="input-popup-label" for="check-out">Дата выезда:</label>
               <input class="input-popup" type="text" name="check-out" id="check-out" value="4 июля 2017">
-              <button class="calendar"><span class="visually-hidden">Выбрать дату выезда</span></button>
+              <button class="calendar" type="button"><span class="visually-hidden">Выбрать дату выезда</span></button>
             </div>
             <div class="popup-item-count">
               <div class="popup-item-count-adult">
@@ -119,6 +117,8 @@
             </div>
             <button type="submit" class="popup-search">Найти</button>
           </form>
+        </section>
+        <div class="map">
         </div>
       </main>
       <footer class="main-footer">
