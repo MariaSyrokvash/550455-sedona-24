@@ -1,0 +1,1 @@
+var link=document.querySelector(".booking-search"),popup=document.querySelector(".popup"),checkIn=popup.querySelector("#check-in");link.addEventListener("click",function(e){e.preventDefault(),popup.classList.toggle("popup-show"),popup.classList.contains("popup-show")&&setTimeout(function(){checkIn.focus()},500)});

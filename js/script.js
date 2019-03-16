@@ -10,7 +10,7 @@ link.addEventListener("click", function (evt) {
 
     setTimeout(function() {
       checkIn.focus();
-    }, 250)
+    }, 500);
 
   }
 });
