@@ -697,6 +697,9 @@ color: #81b3d2;
   min-height: 120px;
   margin: 0 auto;
   width: 1200px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  box-sizing: border-box;
   background: rgba(255, 255, 255, 0.902);
 }
 
@@ -715,6 +718,11 @@ color: #81b3d2;
           transform: translate(15px);
 }
 
+.footer-social {
+  display: block;
+  box-sizing: border-box;
+}
+
 .social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -726,8 +734,11 @@ color: #81b3d2;
           justify-content: space-between;
   margin: 0 auto;
   padding: 0;
+
+
+  
   list-style: none;
-  max-width: 160px;
+  max-width: 400px;
   -webkit-transform: translate(33px);
       -ms-transform: translate(33px);
           transform: translate(33px);
@@ -735,6 +746,7 @@ color: #81b3d2;
 
 .social-item {
   margin-right: 6px;
+  margin-bottom: 6px;
 }
 
 .social-item {
