@@ -377,7 +377,7 @@ color: #81b3d2;
 .booking-text {
   width: 460px;
   margin: 0 auto;
-  margin-bottom: 46px;
+  margin-bottom: 43px;
 }
 
 .booking-text h2 {
@@ -402,6 +402,7 @@ color: #81b3d2;
   padding-top: 30px;
   padding-bottom: 30px;
   font-weight: bold;
+  text-transform: uppercase;
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
@@ -436,7 +437,7 @@ color: #81b3d2;
   position: relative;
   background-color: #ffffff;
   z-index: 2;
-  padding-top: 50px;
+  padding-top: 52px;
 }
 
 .popup {
@@ -559,7 +560,7 @@ color: #81b3d2;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 54px;
+  margin-bottom: 53px;
 }
 
 .minus {
@@ -734,9 +735,6 @@ color: #81b3d2;
           justify-content: space-between;
   margin: 0 auto;
   padding: 0;
-
-
-  
   list-style: none;
   max-width: 400px;
   -webkit-transform: translate(33px);
@@ -827,13 +825,13 @@ color: #81b3d2;
   padding: 0;
   margin: 0;
   margin-top: 27px;
-  margin-right: 117px;
+  margin-right: 120px;
 }
 
 .filter-field-range {
   width: 314px;
   margin: 0;
-  margin-left: 232px;
+  margin-left: 228px;
   margin-top: 27px;
 }
 
@@ -1022,7 +1020,7 @@ color: #81b3d2;
 
 .hotels-sort {
   text-transform: uppercase;
-  height: 86px;
+  min-height: 86px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1038,6 +1036,7 @@ color: #81b3d2;
   line-height: 26px;
   color: #000000;
   margin-left: 72px;
+  margin-right: 8px;
 }
 
 .sorting-list {
@@ -1045,15 +1044,29 @@ color: #81b3d2;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  min-width: 906px;
+  min-width: 857px;
   margin-top: 3px;
+  margin-left: 40px;
+}
+
+.sorting-list-filter {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  max-width: 600px;
+  flex-wrap: wrap;
 }
 
 .sorting-filter {
   font-size: 12px;
   line-height: 18px;
   color: #000000;
-  margin-left: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  list-style: none;
+  align-items: center;
   margin-right: 40px;
 }
 
@@ -1062,6 +1075,7 @@ color: #81b3d2;
   line-height: 18px;
   color: #000000;
 }
+
 .sorting-item {
   color: #00010133;
   border-bottom: 1px dotted #81b3d2;
