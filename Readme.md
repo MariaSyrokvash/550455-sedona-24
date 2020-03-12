@@ -1,4 +1,5 @@
 # Личный проект «Седона»
+(https://MariaSyrokvash.github.io/550455-sedona-24/index.html)
 
 * Студент: [Мария Сырокваш](https://up.htmlacademy.ru/htmlcss/24/user/550455).
 * Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
